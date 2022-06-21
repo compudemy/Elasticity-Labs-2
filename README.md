@@ -36,6 +36,12 @@ These upper areas enable you to assess the health of your AWS services, by seein
 7. If you use six or more AWS services, below the default dashboard is a link to the automatic cross-service dashboard. The cross-service dashboard automatically displays key metrics from every AWS service you use without requiring you to choose what metrics to monitor or create custom dashboards. You can also use it to drill down to any AWS service and see even more key metrics for that service.
 
      <img width="570" alt="cloudwatch 6" src="https://user-images.githubusercontent.com/103466963/174785362-dee3c102-c49e-4da8-a900-08b7b96d5134.png">
+     
+    In this example, we see both EC2 metrics as well as EBS volume metrics for the test machines that were created.
+
+Remove the dashboard you created
+The AWS free tier allows for 3 Dashboards for up to 50 metrics per month for free, but to ensure you are not charged for the dashboard, you should remove it if you created one in the previous step.
+
 
 
 
