@@ -43,6 +43,35 @@ Remove the dashboard you created
 The AWS free tier allows for 3 Dashboards for up to 50 metrics per month for free, but to ensure you are not charged for the dashboard, you should remove it if you created one in the previous step.
 
 
+## Amazon CloudWatch Lab B
+
+In this lab,you will Create alarms that stop, terminate, reboot, or recover an instance So you can create a CloudWatch alarm that monitors CloudWatch metrics for one of your instances. CloudWatch will automatically send you a notification when the metric reaches a threshold you specify. You can create a CloudWatch alarm using the Amazon EC2 console, or using the more advanced options provided by the CloudWatch console.
+
+To create an alarm using the Amazon EC2 console
+
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+
+2. In the navigation pane, choose Instances.
+
+3. Select the instance and choose Actions, Monitor and troubleshoot, Manage CloudWatch alarms.
+
+4. On the Manage CloudWatch alarms detail page, under Add or edit alarm, select Create an alarm.
+
+5. For Alarm notification, choose whether to turn the toggle on or off to configure Amazon Simple Notification Service (Amazon SNS) notifications. Enter an existing Amazon SNS topic or enter a name to create a new topic.
+
+6. For Alarm action, choose whether to turn the toggle on or off to specify an action to take when the alarm is triggered. Select an action from the dropdown.
+
+7. For Alarm thresholds, select the metric and criteria for the alarm. For example, you can leave the default settings for Group samples by (Average) and Type of data to sample (CPU utilization). For Alarm when, choose >= and enter 0.80. For Consecutive period, enter 1. For Period, select 5 minutes.
+
+8. (Optional) For Sample metric data, choose Add to dashboard.
+
+9. Choose Create.
+
+
+
+
+
+
 
 
 
